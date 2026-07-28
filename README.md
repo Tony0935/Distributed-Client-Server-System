@@ -72,6 +72,7 @@ The system requires SQL Server with a database named **BATALLAS**.
 A ready-to-use DDL script is available in `/Database/CreateDatabase.sql`.
 
 ### Setup Steps
+
 1. Open SQL Server Management Studio (SSMS), Azure Data Studio, or your preferred SQL client.
 2. Connect to your local SQL Server instance.
 3. Execute `CreateDatabase.sql` to create the **BATALLAS** database with all required tables, constraints, and foreign keys.
@@ -81,27 +82,21 @@ A ready-to-use DDL script is available in `/Database/CreateDatabase.sql`.
 ### Connection Configuration Examples
 
 **Default Instance (Windows Authentication)**
-```xml
+
 connectionString="Data Source=.;Initial Catalog=BATALLAS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
-```
-**Named Instance / SQLExpress
-```xml
+
+**Named Instance / SQLExpress**
 connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=BATALLAS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
-```
-**SQL Server Authentication
-```xml
+
+**SQL Server Authentication**
 connectionString="Data Source=localhost;Initial Catalog=BATALLAS;User ID=sa;Password=your_password;Encrypt=True;TrustServerCertificate=True;"
-```
 
-### Getting Started
-Open VideojuegoServidor.sln in Visual Studio and set VideojuegoServidor.GUI as the startup project.
+## Getting Started
 
-Run the server — it must be listening before any client connects.
-
-Open VideojuegoCliente.sln in a separate Visual Studio instance (or run the built executable), set VideojuegoCliente.GUI as the startup project, and run it to connect to 127.0.0.1:14100.
-
-Repeat step 3 to launch additional client instances and test concurrent connections.
-
+1. Open `VideojuegoServidor.sln` in Visual Studio and set `VideojuegoServidor.GUI` as the startup project.
+2. Run the server — it must be listening before any client connects.
+3. Open `VideojuegoCliente.sln` in a separate Visual Studio instance (or run the built executable), set `VideojuegoCliente.GUI` as the startup project, and run it to connect to `127.0.0.1:14100`.
+4. Repeat step 3 to launch additional client instances and test concurrent connections.
 
 ## Status
 
