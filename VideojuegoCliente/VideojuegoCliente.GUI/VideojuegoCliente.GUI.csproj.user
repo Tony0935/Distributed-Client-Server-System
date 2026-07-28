@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="ConsultasForms\FormConsBatalla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConsultasForms\FormConsEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConsultasForms\FormConsInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConsultasForms\FormConsRondas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConsultasForms\FormConsTop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormSubMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegistrosForms\FormRegBatalla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegistrosForms\FormRegEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RegistrosForms\FormRegInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
