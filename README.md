@@ -82,15 +82,17 @@ A ready-to-use DDL script is available in `/Database/CreateDatabase.sql`.
 **Default Instance (Windows Authentication)**
 ```xml
 connectionString="Data Source=.;Initial Catalog=BATALLAS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
-
-Named Instance / SQLExpress
+```
+**Named Instance / SQLExpress
+```xml
 connectionString="Data Source=.\SQLEXPRESS;Initial Catalog=BATALLAS;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;"
-
-SQL Server Authentication
+```
+**SQL Server Authentication
+```xml
 connectionString="Data Source=localhost;Initial Catalog=BATALLAS;User ID=sa;Password=your_password;Encrypt=True;TrustServerCertificate=True;"
 ```
 
-Getting Started
+### Getting Started
 Open VideojuegoServidor.sln in Visual Studio and set VideojuegoServidor.GUI as the startup project.
 
 Run the server — it must be listening before any client connects.
