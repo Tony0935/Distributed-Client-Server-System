@@ -13,6 +13,7 @@ The repository contains two independent Visual Studio solutions that together ma
 Distributed-Client-Server-System/
 ├── VideojuegoCliente/      → client solution (3 projects)
 ├── VideojuegoServidor/     → server solution (5 projects)
+├── Database/CreateDatabase.sql
 ├── README.md
 └── .gitignore
 ```
