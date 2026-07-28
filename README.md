@@ -3,9 +3,9 @@ Distributed C# system built with a strict client-server architecture: the client
 
 ## Overview
 
-This is a desktop client-server system where multiple clients connect concurrently to a central server over TCP sockets. The server is the only component with access to SQL Server, exposing player, inventory, and session data through a socket-based protocol while enforcing business rules and data integrity at the network boundary.
+This desktop client-server application models an automated creature battle and trading game. Players can register, purchase store creatures using crystals, form custom 3-creature teams, and enter a battle queue. The server pairs waiting players via matchmaking, automatically executes and registers 3 combat rounds based on creature stats, and synchronizes real-time round results and post-battle rewards (crystals and stat increases) across both clients.
 
-The project focuses on the engineering problems behind that architecture — concurrency control, layered design, data validation, and graceful failure handling — rather than on the specific domain it's modeled around.
+Beyond the game domain, the primary focus of the project is demonstrating robust distributed systems architecture, concurrency control, thread safety, strict layer isolation, and socket-level validation at the network boundary.
 
 The repository contains two independent Visual Studio solutions that together make up the full system:
 
